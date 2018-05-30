@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/customer"
-	"github.com/stripe/stripe-go/invoiceitem"
-	"github.com/stripe/stripe-go/plan"
-	"github.com/stripe/stripe-go/sub"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/alphaflow/stripe-go"
+	"github.com/alphaflow/stripe-go/currency"
+	"github.com/alphaflow/stripe-go/customer"
+	"github.com/alphaflow/stripe-go/invoiceitem"
+	"github.com/alphaflow/stripe-go/plan"
+	"github.com/alphaflow/stripe-go/sub"
+	. "github.com/alphaflow/stripe-go/utils"
 )
 
 func init() {

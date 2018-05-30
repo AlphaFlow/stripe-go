@@ -3,9 +3,9 @@ package token
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/bankaccount"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/alphaflow/stripe-go"
+	"github.com/alphaflow/stripe-go/bankaccount"
+	. "github.com/alphaflow/stripe-go/utils"
 )
 
 func init() {

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/product"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/alphaflow/stripe-go"
+	"github.com/alphaflow/stripe-go/product"
+	. "github.com/alphaflow/stripe-go/utils"
 )
 
 func init() {

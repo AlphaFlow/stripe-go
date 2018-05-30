@@ -3,8 +3,8 @@ package stripe_test
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	. "github.com/stripe/stripe-go/testing"
+	stripe "github.com/alphaflow/stripe-go"
+	. "github.com/alphaflow/stripe-go/testing"
 )
 
 func TestCheckinBackendConfigurationNewRequestWithStripeAccount(t *testing.T) {
